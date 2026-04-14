@@ -1,0 +1,129 @@
+.demo-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(255, 138, 0, 0.12);
+  color: #a34c00;
+  border: 1px solid rgba(255, 138, 0, 0.18);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.demo-banner {
+  background: linear-gradient(135deg, #fff8ef 0%, #ffe6c7 100%);
+  border: 1px solid #ffd7a3;
+  border-radius: 18px;
+  padding: 18px 20px;
+  box-shadow: 0 10px 30px rgba(255, 138, 0, 0.08);
+}
+
+.demo-banner p:last-child {
+  margin-bottom: 0;
+}
+
+.demo-auth-note {
+  background: linear-gradient(135deg, #fff9f2 0%, #fff1de 100%);
+  border: 1px solid #ffd8af;
+  border-radius: 16px;
+  padding: 16px 18px;
+}
+
+.demo-shortcuts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+}
+
+.demo-shortcut-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  background: #fff;
+  border: 1px solid #f3dcc2;
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.demo-shortcut-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(255, 138, 0, 0.12);
+  color: inherit;
+}
+
+.demo-shortcut-card small {
+  color: #6c757d;
+}
+
+.demo-role-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.demo-role-links .btn {
+  padding: 10px 16px !important;
+}
+
+.demo-section {
+  scroll-margin-top: 20px;
+}
+
+.demo-table thead th {
+  white-space: nowrap;
+}
+
+.demo-kpi {
+  border-left: 4px solid #ff8a00;
+}
+
+.demo-list {
+  display: grid;
+  gap: 12px;
+}
+
+.demo-list-item {
+  background: #fffaf4;
+  border: 1px solid #ffe0b8;
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+
+.demo-muted {
+  color: #6c757d;
+}
+
+.demo-pill {
+  display: inline-block;
+  background: #fff1de;
+  color: #a34c00;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.demo-empty-button {
+  pointer-events: none;
+}
+
+@media (max-width: 991.98px) {
+  .container {
+    height: auto;
+  }
+
+  .menu,
+  .dash-body {
+    width: 100%;
+    height: auto;
+  }
+
+  .menu {
+    border-right: none;
+    border-bottom: 1.5px solid rgb(235, 235, 235);
+  }
+}
